@@ -1,0 +1,7 @@
+.searchContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(275px, 360px));
+  padding: 2rem;
+  gap: 2.6rem;
+  justify-content: center;
+}

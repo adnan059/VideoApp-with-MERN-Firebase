@@ -1,0 +1,119 @@
+.vidPageContainer {
+  display: flex;
+  gap: 25px;
+
+  padding: 1rem 2rem;
+}
+
+.vidPageContainer .content {
+  flex: 7;
+  background-color: var(--mainBG);
+}
+
+.vidPageContainer .content .vidWrapper video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.vidPageContainer .content .vidWrapper .title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  color: var(--primTextColor);
+}
+
+.vidPageContainer .content .vidWrapper .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  color: var(--secTextColor);
+}
+
+.vidPageContainer .content .details .buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.vidPageContainer .content .vidWrapper .details .buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: transparent;
+  color: var(--pink);
+}
+
+.vidPageContainer .content .vidWrapper .details .buttons button i {
+  font-size: 2.2rem;
+}
+
+.vidPageContainer .content .vidWrapper .channel {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  gap: 2rem;
+}
+
+.vidPageContainer .content .vidWrapper .channel .channelInfo {
+  display: flex;
+  gap: 20px;
+}
+
+.vidPageContainer .content .vidWrapper .channel .channelInfo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.vidPageContainer .content .vidWrapper .channel .channelInfo .channelDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vidPageContainer
+  .content
+  .vidWrapper
+  .channel
+  .channelInfo
+  .channelDetail
+  .channelName {
+  font-weight: 600;
+  color: var(--primTextColor);
+}
+
+.vidPageContainer
+  .content
+  .vidWrapper
+  .channel
+  .channelInfo
+  .channelDetail
+  .subscribers {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--secTextColor);
+}
+.vidPageContainer
+  .content
+  .vidWrapper
+  .channel
+  .channelInfo
+  .channelDetail
+  .channelDesc {
+  font-size: 1.4rem;
+  line-height: 1.7;
+  color: var(--lightTextColor);
+}
+
+.vidPageContainer .content .vidWrapper .channel .subscribe {
+  height: 40px;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}

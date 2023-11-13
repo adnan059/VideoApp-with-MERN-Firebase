@@ -1,0 +1,75 @@
+.menuContainer {
+  flex: 1;
+  height: 100vh;
+  color: white;
+  font-size: 1.4rem;
+  position: sticky;
+  top: 0;
+  background-color: var(--mainBG);
+}
+
+.menuContainer .wrapper {
+  padding: 3rem 26px;
+}
+
+.menuContainer .wrapper .logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.menuContainer .wrapper .logo img {
+  height: 25px;
+  width: auto;
+}
+
+.menuContainer .wrapper .itemList .item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  margin: 15px 0;
+}
+
+.menuContainer .wrapper .login {
+  display: block;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 8px 16px;
+  color: white;
+  margin-top: 25px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.menuContainer .wrapper .currentUserInfo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.menuContainer .wrapper .currentUserInfo img {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  object-fit: cover;
+}
+
+.menuContainer .wrapper .logout {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.menuContainer .wrapper .uploadBtn {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}

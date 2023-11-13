@@ -1,0 +1,94 @@
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 63px);
+  background-color: var(--mainBG);
+}
+
+.authContainer .wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--secBG);
+  padding: 3rem 5rem;
+  border-radius: 10px;
+}
+
+.authContainer .wrapper .title {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: var(--primTextColor);
+}
+
+.authContainer .wrapper .subTitle {
+  margin: 5px 0 20px 0;
+  font-size: 2.2rem;
+  color: var(--primTextColor);
+}
+
+.authContainer .wrapper .subTitle .vidTub {
+  color: rgb(248, 67, 127);
+}
+
+.authContainer .wrapper input {
+  font-size: 1.6rem;
+  padding: 5px 10px;
+  margin-bottom: 25px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--lightTextColor);
+  background-color: transparent;
+  width: 100%;
+  color: var(--secTextColor);
+}
+
+.authContainer .wrapper input::placeholder {
+  color: var(--secTextColor);
+}
+
+.authContainer .wrapper input:focus {
+  outline: none;
+}
+
+.authContainer .wrapper button {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.authContainer .wrapper button:nth-of-type(1) {
+  margin-bottom: 20px;
+  background-color: rgb(248, 67, 127);
+  color: white;
+}
+
+.authContainer .wrapper button:nth-of-type(2) {
+  background-color: rgb(196, 100, 22);
+  color: white;
+}
+
+.authContainer .wrapper button:nth-of-type(3) {
+  background-color: rgb(248, 67, 127);
+  color: white;
+}
+
+.authContainer .wrapper label {
+  color: var(--primTextColor);
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.authContainer .wrapper .uploadPerc {
+  color: var(--primTextColor);
+  margin-right: auto;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.authContainer .wrapper button:disabled {
+  cursor: not-allowed;
+}

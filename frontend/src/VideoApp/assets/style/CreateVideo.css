@@ -1,0 +1,90 @@
+.createContainer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createContainer .wrapper {
+  width: 80%;
+  background-color: var(--secBG);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 5rem;
+}
+
+.createContainer .wrapper .title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.createContainer .wrapper input:not([type="file"]),
+.createContainer .wrapper textarea {
+  font-size: 1.6rem;
+  padding: 5px 10px;
+  margin-bottom: 25px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--lightTextColor);
+  background-color: transparent;
+  width: 100%;
+  color: var(--secTextColor);
+  resize: none;
+}
+
+.createContainer .wrapper textarea {
+  height: 40px;
+}
+
+.createContainer .wrapper input::placeholder,
+.createContainer .wrapper textarea::placeholder {
+  color: var(--lightTextColor);
+}
+
+.createContainer .wrapper input[type="file"] {
+  margin-bottom: 2rem;
+  width: max-content;
+}
+
+.createContainer .wrapper label {
+  margin-bottom: 1rem;
+}
+
+div.rti--container {
+  --rti-main: transparent;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+span.rti--tag {
+  background-color: transparent;
+}
+
+input.rti--input {
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+}
+
+.tagInp {
+  background-color: red;
+}
+
+.createContainer .wrapper .uploadBtn {
+  background-color: var(--pink);
+  width: max-content;
+  margin-inline: auto;
+  padding: 0.6rem 1.4rem;
+  margin-top: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+.createContainer .wrapper .uploadBtn:disabled {
+  background-color: pink;
+  color: red;
+}

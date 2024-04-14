@@ -1,1 +1,1 @@
-export const baseUrl = "https://video-app-backend-opal.vercel.app/";
+export const baseUrl = "https://video-app-backend-opal.vercel.app";

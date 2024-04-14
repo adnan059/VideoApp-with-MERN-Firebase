@@ -1,1 +1,1 @@
-export const baseUrl = "https://videoapp-2wfm.onrender.com";
+export const baseUrl = "https://video-app-with-mern-firebase.vercel.app/";
